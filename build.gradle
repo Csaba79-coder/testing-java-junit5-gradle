@@ -28,6 +28,8 @@ dependencies {
 test {
     useJUnitPlatform()
 
+    // if I comment the lines bellow out than more simple will be the test info!
+
     testLogging.showStandardStreams = true
 
     testLogging {
